@@ -11,7 +11,6 @@ book2 = Book('B002', 'Django for Beginners', 'Jane Smith', 'Programming', 5)
 library.add_book(vars(book1))
 
 def main():
-    library = LibraryManagement()
     while True:
         print("\n📚 HỆ THỐNG QUẢN LÝ THƯ VIỆN")
         print("1. Thêm sách")
